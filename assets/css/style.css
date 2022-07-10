@@ -234,4 +234,10 @@ footer i {
     color: #3a3a3a;
 }
 
+/* Page Two: Gallery styling */
+#photos {
+    /* doing clear: both allows photos to display below the header */
+    clear: both;
+}
+
 
