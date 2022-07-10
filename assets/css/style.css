@@ -140,4 +140,18 @@ transform: scale(1.1);
     background-color: yellow;
 }
 
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;   
+    clear: both;
+    margin-bottom: 50px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
 
