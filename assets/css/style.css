@@ -238,6 +238,13 @@ footer i {
 #photos {
     /* doing clear: both allows photos to display below the header */
     clear: both;
+    line-height: zero;
+    column-count: 4;
+    column-gap: 2px;
+}
+
+#photos img {
+    width: 100%;
 }
 
 
