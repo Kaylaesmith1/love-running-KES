@@ -66,6 +66,7 @@ h1,h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -86,3 +87,28 @@ h1,h2 {
 transform: scale(1.1);
 }
 }
+
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
+#cover-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    /* use rgb values for color to INCLUDE OPACITY */
+    background-color: rgb(212, 104, 41, .65);
+    
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+}
+
+
