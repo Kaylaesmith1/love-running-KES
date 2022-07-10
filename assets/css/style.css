@@ -32,7 +32,7 @@ h1,h2 {
     
 }
 
-/* navigation links. Maintain order of links on float-right: wrap the ul in a div, assign float right to ul and float left to li */
+/* navigation links. Maintain order of links on float-right: wrap the ul in a div, assign float right to ul and float left (OR display inline) to li */
 
 #menu {
 
@@ -46,9 +46,10 @@ h1,h2 {
 }
 
 #menu li {
-    float: left;
+    /* float: left; */
     list-style: none;
     margin-right: 30px;
+    display: inline;
     
 }
 
@@ -212,6 +213,25 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+footer ul {
+    text-align: center;   
+}
+
+footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
