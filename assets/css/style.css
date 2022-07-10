@@ -247,7 +247,7 @@ footer i {
     width: 100%;
 }
 
-/* Page Two: media queries, responsive */
+/* Page Two: media queries, responsive for large screen sizes*/
 
 @media screen and (max-width: 1200px) {
     #club-ethos {
@@ -279,5 +279,16 @@ footer i {
     }
 }
 
+/* Page Two: media queries, responsive for mid-level screen sizes */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
 
 
